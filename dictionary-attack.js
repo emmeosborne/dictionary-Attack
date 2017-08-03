@@ -13,17 +13,16 @@ function init() {
 window.onload = init;
 
 /* ADD YOUR CODE BELOW */
-while(onclick){
-		
-		if(pass){
-			println("That password is a dictionary word, it is weak. Try a diffrent password ");
-			break;
-			
-		}
-		
-	}
-	
+
 
 function checkPassword() {
+	
+	if(pw == wordlist){
+		println("This password is weak because it is a dictionary word. Try a better password.");
+			
+	}
+
+	
   
 }
+
