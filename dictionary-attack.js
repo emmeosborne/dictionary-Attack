@@ -13,7 +13,16 @@ function init() {
 window.onload = init;
 
 /* ADD YOUR CODE BELOW */
-println("hello")
+// while(true){
+		
+// 		if(pass == SECRET){
+// 			println("That password is a dictionary word, it is weak. Try a diffrent password ");
+// 			break;
+			
+// 		}
+		
+// 	}
+	
 
 function checkPassword() {
 
