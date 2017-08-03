@@ -7,7 +7,7 @@ function init() {
     document.getElementById("btnSubmit").disabled = true; 
     wordsList = data.split('\n');
     document.getElementById("btnSubmit").disabled = false; 
-  });
+  }//);
 }
 
 window.onload = init;
