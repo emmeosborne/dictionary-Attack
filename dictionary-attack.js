@@ -16,13 +16,13 @@ window.onload = init;
 
 
 function checkPassword() {
-	
-	if(pw == wordlist){
-		println("This password is weak because it is a dictionary word. Try a better password.");
-			
-	}
+	while(onclick == true){
+		if(pw == wordlist){
+			println("This password is weak because it is a dictionary word. Try a better password.");
 
-	
+		}
+
+	}
   
 }
 
