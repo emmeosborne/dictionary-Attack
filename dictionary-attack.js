@@ -7,7 +7,7 @@ function init() {
     document.getElementById("btnSubmit").disabled = true; 
     wordsList = data.split('\n');
     document.getElementById("btnSubmit").disabled = false; 
-  }//);
+  });
 }
 
 window.onload = init;
@@ -18,7 +18,7 @@ window.onload = init;
 function checkPassword() {
 var pass = document.getElementById("pw").value;
 	for(var i = 0; i < wordsList.length; i++){
-		if(pass == wordsList[i]){
+		if(wordsList[i] == pass){
 			document.getElementById("results").innerHTML = "Your password is weak";
 			break;
 		}
