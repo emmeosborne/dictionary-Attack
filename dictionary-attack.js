@@ -16,7 +16,7 @@ window.onload = init;
 
 
 function checkPassword() {
-	document.getElementById("pw").innerHTML = 5 + 6;
+	document.getElementById("btnSubmit").innerHTML = 5 + 6;
 	
 }
 
