@@ -13,15 +13,15 @@ function init() {
 window.onload = init;
 
 /* ADD YOUR CODE BELOW */
-// while(true){
+while(onclick){
 		
-// 		if(pass == SECRET){
-// 			println("That password is a dictionary word, it is weak. Try a diffrent password ");
-// 			break;
+		if(pass){
+			println("That password is a dictionary word, it is weak. Try a diffrent password ");
+			break;
 			
-// 		}
+		}
 		
-// 	}
+	}
 	
 
 function checkPassword() {
