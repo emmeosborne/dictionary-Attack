@@ -17,6 +17,7 @@ window.onload = init;
 
 function checkPassword() {
 	var pass = readLine("What is your password? ");
+	println(pass)
 	
 // 		if(pass == wordlist){
 // 			println("This password is weak because it is a dictionary word. Try a better password.");
