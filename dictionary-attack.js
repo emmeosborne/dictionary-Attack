@@ -13,6 +13,7 @@ function init() {
 window.onload = init;
 
 /* ADD YOUR CODE BELOW */
+println("hello")
 
 function checkPassword() {
 
