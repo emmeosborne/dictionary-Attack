@@ -16,7 +16,7 @@ window.onload = init;
 
 
 function checkPassword() {
-	while(onclick == true){
+	while(onclick){
 		if(pw == wordlist){
 			println("This password is weak because it is a dictionary word. Try a better password.");
 
