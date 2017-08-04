@@ -21,6 +21,8 @@ var pass = document.getElementById("pw").value;
 		if(pass == wordsList[i]){
 			document.getElementById("results").innerHTML = "Your password is weak. Try again.";
 			break;
+		} else {
+			document.getElementById("results").innerHTML = "Your password is strong, good work!";
 		}
 	}
 }
