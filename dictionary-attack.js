@@ -26,3 +26,4 @@ var pass = document.getElementById("pw").value;
 	}
 //document.getElementById("results").innerHTML = "Your password is strong, good work!";
 }
+  
