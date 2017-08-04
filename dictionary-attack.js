@@ -26,11 +26,11 @@ var strenght;
 // 			location.reload(forceGet);
 // 			break;
 		} 	
-	
+	}
 strength = true;
 printResults(strength);
 }
-	funtion printResults(strength) {
+	function printResults(strength) {
 		if(strength == true){
 			document.getElementById("results").innerHTML = "Good password!";
 			break;
@@ -44,5 +44,5 @@ printResults(strength);
 	
 // document.getElementById("results").innerHTML = "Your password is strong, good work!";
 // location.reload();
-}
+
   
