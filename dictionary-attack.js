@@ -33,7 +33,7 @@ printResults(strength);
 	function printResults(strength) {
 		if(strength == true){
 			document.getElementById("results").innerHTML = "Good password!";
-			break;
+// 			break;
 			
 		} else {
 			document.getElementById("results").innerHTML = "Your password is strong, good work!";
