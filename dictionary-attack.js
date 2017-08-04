@@ -17,7 +17,7 @@ window.onload = init;
 
 function checkPassword() {
 var pass = document.getElementById("pw").value;
-var strenght;
+var strength;
 	for(var i = 0; i < wordsList.length; i++){
 		if(pass == wordsList[i]){
 			stength = false;
