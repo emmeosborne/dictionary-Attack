@@ -17,14 +17,32 @@ window.onload = init;
 
 function checkPassword() {
 var pass = document.getElementById("pw").value;
+var strenght;
 	for(var i = 0; i < wordsList.length; i++){
 		if(pass == wordsList[i]){
-			document.getElementById("results").innerHTML = "Your password is weak. Try again.";
-			location.reload(forceGet);
-			break;
+			stength = false;
+			printResults(strength);
+// 			document.getElementById("results").innerHTML = "Your password is weak. Try again.";
+// 			location.reload(forceGet);
+// 			break;
 		} 	
+	
+strength = true;
+printResults(strength);
+}
+	funtion printResults(strength) {
+		if(strength == true){
+			document.getElementById("results").innerHTML = "Good password!";
+			break;
+			
+		} else {
+			document.getElementById("results").innerHTML = "Your password is strong, good work!";
+			location.reload();
+			checkPassword();
+		}
 	}
-document.getElementById("results").innerHTML = "Your password is strong, good work!";
-location.reload(forceGet);
+	
+// document.getElementById("results").innerHTML = "Your password is strong, good work!";
+// location.reload();
 }
   
