@@ -20,10 +20,11 @@ var pass = document.getElementById("pw").value;
 	for(var i = 0; i < wordsList.length; i++){
 		if(pass == wordsList[i]){
 			document.getElementById("results").innerHTML = "Your password is weak. Try again.";
-			location.reload(forceGet)
+			location.reload(forceGet);
 			break;
 		} 	
 	}
 document.getElementById("results").innerHTML = "Your password is strong, good work!";
+location.reload(forceGet);
 }
   
