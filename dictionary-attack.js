@@ -22,10 +22,8 @@ var pass = document.getElementById("pw").value;
 			document.getElementById("results").innerHTML = "Your password is weak. Try again.";
 			location.reload(forceGet)
 			break;
-		} else {
-			document.getElementById("results").innerHTML = "Your password is strong, good work!";
-			}	
+		} 	
 	}
-
+document.getElementById("results").innerHTML = "Your password is strong, good work!";
 }
   
